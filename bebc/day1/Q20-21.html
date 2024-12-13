@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Example</title>
+</head>
+<body>
+  <script>
+    const correctUsername = "admin";
+    const correctPassword = "password123";
+
+    const username = prompt("Please enter your username:");
+
+    const password = prompt("Please enter your password:");
+
+    if (username === correctUsername && password === correctPassword) {
+      alert("Login successful!");
+    } else {
+      alert("Incorrect username or password. Please try again.");
+    }
+  </script>
+</body>
+</html>
